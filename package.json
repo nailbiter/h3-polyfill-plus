@@ -1,0 +1,19 @@
+{
+  "name": "spd",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "csv": "^5.3.2",
+    "fs": "0.0.1-security",
+    "h3-js": "^3.7.2"
+  },
+  "devDependencies": {
+    "expect": "^26.0.1",
+    "mocha": "^7.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
